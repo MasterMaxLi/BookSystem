@@ -1,5 +1,8 @@
 package com.masterli.entity;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.masterli.config.CustomDateTimeSerializer;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -28,6 +31,7 @@ public class BookType {
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateDateTime;
 
+    @JsonSerialize(using = CustomDateTimeSerializer.class)
     public Date getCreateDateTime() {
         return createDateTime;
     }
@@ -36,6 +40,7 @@ public class BookType {
         this.createDateTime = createDateTime;
     }
 
+    @JsonSerialize(using = CustomDateTimeSerializer.class)
     public Date getUpdateDateTime() {
         return updateDateTime;
     }
