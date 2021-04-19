@@ -2,6 +2,7 @@ package com.masterli.entity;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.masterli.config.CustomDateTimeSerializer;
+import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -22,6 +23,10 @@ public class BookType {
 
     @Column(length = 10)
     private String name;    //类型名称
+
+    @NotNull
+    @Column(length = 10)
+    private Integer orderNo;
 
     //创建时间
     @Temporal(TemporalType.TIMESTAMP)
@@ -63,5 +68,13 @@ public class BookType {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Integer getOrderNo() {
+        return orderNo;
+    }
+
+    public void setOrderNo(Integer orderNo) {
+        this.orderNo = orderNo;
     }
 }
