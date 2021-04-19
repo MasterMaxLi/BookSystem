@@ -5,7 +5,7 @@ import com.sun.istack.NotNull;
 import javax.persistence.*;
 
 /**
- * @Author: Limingxuan
+ * @Author: masterli
  * @Date: 2021/4/19 18:13
  * 菜单类
  */

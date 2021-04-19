@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @Author: Limingxuan
+ * @Author: masterli
  * @Date: 2021/4/19 18:11
  * 自定义返回Json数据格式中日期格式化处理
  */

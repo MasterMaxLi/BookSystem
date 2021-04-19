@@ -3,7 +3,7 @@ package com.masterli.config;
 import javax.persistence.*;
 
 /**
- * @Author: Limingxuan
+ * @Author: masterli
  * @Date: 2021/4/19 17:45
  * 网站配置 实体
  */

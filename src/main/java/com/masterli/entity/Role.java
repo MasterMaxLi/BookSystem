@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * @Author: Limingxuan
+ * @Author: masterli
  * @Date: 2021/4/19 17:50
  * 角色类，用户的角色
  */
