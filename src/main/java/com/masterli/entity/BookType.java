@@ -14,7 +14,7 @@ import java.util.Date;
  */
 
 @Entity
-@Table(name = "t_book_type")
+@Table(name = "t_a_book_type")
 public class BookType {
 
     @Id
