@@ -11,7 +11,7 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name = "t_a_menu")
+@Table(name = "t_menu")
 public class Menu {
 
     @Id
